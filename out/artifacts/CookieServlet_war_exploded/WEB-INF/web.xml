@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ListServlet</servlet-name>
+        <servlet-class>com.sjp.servlet.ListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DetailServlet</servlet-name>
+        <servlet-class>com.sjp.servlet.DetailServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionDemo1</servlet-name>
+        <servlet-class>com.sjp.servlet.SessionDemo1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionDemo2</servlet-name>
+        <servlet-class>com.sjp.servlet.SessionDemo2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.sjp.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.sjp.servlet.IndexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/listservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DetailServlet</servlet-name>
+        <url-pattern>/detailservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionDemo1</servlet-name>
+        <url-pattern>/sessiondemo1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionDemo2</servlet-name>
+        <url-pattern>/sessiondemo2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/indexservlet</url-pattern>
+    </servlet-mapping>
+</web-app>
